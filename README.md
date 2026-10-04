@@ -23,6 +23,32 @@ Pulling live data from web APIs and visualizing it with pygal.
 - **Hacker News:** `hn_submissions.py` charts the top submissions and their comment counts.
 - **Custom bar chart:** `bar_descriptions.py` shows custom tooltip labels.
 
+## Example Charts
+
+**Most-starred Python projects on GitHub** (`working_with_apis/python_repos.py`)
+
+![Most-starred Python projects](working_with_apis/python_repos.svg)
+
+**Top Hacker News submissions by comments** (`working_with_apis/hn_submissions.py`)
+
+![Hacker News top comments](working_with_apis/hn_top_comments.svg)
+
+**Rolling three dice** (`Generating Data/roll_dies/`)
+
+![Three dice rolls](Generating%20Data/roll_dies/three_die.svg)
+
+**Random walk** (`Generating Data/random_walk/`)
+
+![Random walk](Generating%20Data/random_walk/rw_pygal.svg)
+
+**World population map** (`downloading_data/world_population.py`)
+
+![World population](downloading_data/world_population.svg)
+
+**Population growth, 2025** (`downloading_data/population_growth_proj/`)
+
+![Population growth 2025](downloading_data/population_growth_proj/pop_growth_2025.svg)
+
 ## Running
 
 Use the project virtual environment, which has the dependencies installed (requests, pygal, matplotlib).
